@@ -15,3 +15,24 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+/*setTimeout(()=>{
+  let text = document.createElement('textarea')
+  text.style.position = 'absolute'
+  text.value =
+  `<!DOCTYPE html>
+  <html lang="en">
+    <head>
+  `+
+  document.head.innerHTML+
+  `
+    </head>
+    <body>
+  `+
+  document.body.innerHTML+
+  `
+    </body>
+  </html>
+  `
+  document.body.appendChild(text)
+}, 2000)*/
